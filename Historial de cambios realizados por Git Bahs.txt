@@ -1,0 +1,166 @@
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git init
+Initialized empty Git repository in C:/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling/.git/
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assets/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git commit -a
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assets/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git add .
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Assets/CSS/style.css
+        new file:   Assets/IMG/bebidas.jpg
+        new file:   Assets/IMG/chorillana.jpg
+        new file:   Assets/IMG/fondo.jpg
+        new file:   Assets/IMG/mojito.jpg
+        new file:   Assets/IMG/n.webp
+        new file:   Assets/IMG/shop.jpeg
+        new file:   Assets/IMG/tablas.jpg
+        new file:   Assets/IMG/vino.jpg
+        new file:   Assets/JS/logica.js
+        new file:   index.html
+
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git commit -a
+[master (root-commit) 7771ef4] primer commit, empezar a agregar a modificar la pagina
+ 11 files changed, 505 insertions(+)
+ create mode 100644 Assets/CSS/style.css
+ create mode 100644 Assets/IMG/bebidas.jpg
+ create mode 100644 Assets/IMG/chorillana.jpg
+ create mode 100644 Assets/IMG/fondo.jpg
+ create mode 100644 Assets/IMG/mojito.jpg
+ create mode 100644 Assets/IMG/n.webp
+ create mode 100644 Assets/IMG/shop.jpeg
+ create mode 100644 Assets/IMG/tablas.jpg
+ create mode 100644 Assets/IMG/vino.jpg
+ create mode 100644 Assets/JS/logica.js
+ create mode 100644 index.html
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git log
+commit 7771ef4e91bfe9b20e87a543bb309e2463ce089d (HEAD -> master)
+Author: Emanuel Bustos <emanuel.bus.or@gmail.com>
+Date:   Fri Apr 7 15:32:52 2023 -0400
+
+    primer commit, empezar a agregar a modificar la pagina
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assets/IMG/IMG1.jpg
+        Assets/IMG/IMG2.jpg
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git add .
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Assets/IMG/IMG1.jpg
+        new file:   Assets/IMG/IMG2.jpg
+
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git commit -m "agregando las imagenes del material complementario"
+[master 353a163] agregando las imagenes del material complementario
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Assets/IMG/IMG1.jpg
+ create mode 100644 Assets/IMG/IMG2.jpg
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git log
+commit 353a1635ad57e5cc80510232770dacb7656e0c6c (HEAD -> master)
+Author: Emanuel Bustos <emanuel.bus.or@gmail.com>
+Date:   Fri Apr 7 15:38:25 2023 -0400
+
+    agregando las imagenes del material complementario
+
+commit 7771ef4e91bfe9b20e87a543bb309e2463ce089d
+Author: Emanuel Bustos <emanuel.bus.or@gmail.com>
+Date:   Fri Apr 7 15:32:52 2023 -0400
+
+    primer commit, empezar a agregar a modificar la pagina
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assets/CSS/style.css
+        modified:   Assets/JS/logica.js
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git commit -a
+[master b3bab82] acabo de implementar los cambios en la pagina
+ 3 files changed, 167 insertions(+), 11 deletions(-)
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$ git log
+commit b3bab82bbffb66e42507b324e5bcea93dc9f7665 (HEAD -> master)
+Author: Emanuel Bustos <emanuel.bus.or@gmail.com>
+Date:   Fri Apr 7 23:10:43 2023 -0400
+
+    acabo de implementar los cambios en la pagina
+
+commit 353a1635ad57e5cc80510232770dacb7656e0c6c
+Author: Emanuel Bustos <emanuel.bus.or@gmail.com>
+Date:   Fri Apr 7 15:38:25 2023 -0400
+
+    agregando las imagenes del material complementario
+
+commit 7771ef4e91bfe9b20e87a543bb309e2463ce089d
+Author: Emanuel Bustos <emanuel.bus.or@gmail.com>
+Date:   Fri Apr 7 15:32:52 2023 -0400
+
+    primer commit, empezar a agregar a modificar la pagina
+
+56997@NIB23 MINGW64 /c/Respaldo/Beca/CPFS/2/Sesion_12/Emanuel Bustos drilling (master)
+$
