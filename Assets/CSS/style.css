@@ -77,6 +77,20 @@ p {
     font-size: 20px;
 }
 
+.targetas-2 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, .4);
+    top: 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    z-index: 11;
+}
+
 .targeta {
     background-color: #131313;
     color: #ffffff;
@@ -100,6 +114,58 @@ p {
 }
 .nav-link:hover {
     text-shadow: 0 0 5px red, 0 0 5px red, 0 0 5px red, 0 0 5px red;
+}
+.historia-pub {
+    display: none;
+    padding-top: 10%;
+    z-index: 1;
+}
+
+
+.historia {
+    font-style: italic;
+    font-weight: bold;
+    color: #e2e7e7;
+    font-size: medium;
+}
+
+.titulo {
+    color: #e2e7e7;
+    font-weight: 600;
+   
+}
+
+
+.sobre-nosotros {
+    margin: 0 auto;
+}
+.historia-container {
+    background-color: #131313;
+    display: grid;
+    padding: 1% 1%;
+    width: 60%;
+    height: 500px;
+    border-radius: 2%;
+} 
+
+.imagen-historia {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10%;
+    margin-top: 0;
+    padding-top: 1%;
+    border-radius: 2%;
+}
+#imagen2 {
+    margin-top: 10px;
+    padding-top: 1%;
+    
+}
+.carousel-control-next, .carousel-control-prev {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 
@@ -130,6 +196,19 @@ p {
         width: 90%;
         margin: 0 auto;
     }
+    .historia-container {
+        
+        padding: 1% 1%;
+        width: 110%;
+        height: 500px;
+       
+    } 
+    .carousel-control-next, .carousel-control-prev {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    
     
     
 }
@@ -140,6 +219,12 @@ p {
     #reserva {
         display: none;
     }
+    .historia-pub {
+        
+        padding-top: 15%;
+        
+    }
+    
    
 }
      
@@ -172,6 +257,30 @@ p {
         width: 90%;
         margin: 0 auto;
     }
+    .historia-pub {
+        
+        padding-top: 30%;
+        
+    }
+    .historia-container {
+        
+        padding: 1% 1%;
+        width: 100%;
+        height: 500px;
+       
+    } 
+    .carousel-control-next, .carousel-control-prev {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20%;
+    }
+    .historia {
+        font-style: italic;
+        font-weight: bold;
+        color: #e2e7e7;
+        font-size: small;
+    }
+    
     
     
 }

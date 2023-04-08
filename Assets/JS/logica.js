@@ -105,8 +105,17 @@ $(document).ready(function() {
         })
 
     })
-   
 
+    // Desplegando el sobre nosotros
+    
+    $(".sobre").click(function() {
+        $(".historia-pub").css("display", "block");
+        
+        })
 
+    $(".btn-close").click(function() {
+        $(".historia-pub").css("display", "none");
+
+})
 
 })
